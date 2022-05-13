@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">projetoinvest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_valor">Valor</string>
+    <string name="hint_prazo">Prazo</string>
+    <string name="str_liquidez">Liquidez </string>
+    <string name="escolhe_liquidez">Liquidez</string>
+    <string name="str_anual">Anual</string>
+    <string name="str_mensal">Mensal</string>
+    <string name="str_diaria">Diária</string>
+    <string name="escolhe_emissor">Emissor (Banco/Corretora)</string>
+    <string name="str_xpinvest">XP investimentos</string>
+    <string name="str_novafutura">Nova Futura</string>
+    <string name="str_orama">Órama Investimentos</string>
+    <string name="escolhe_garantia">Garantia</string>
+    <string name="str_FGC">FGC - Fundo Garantidor de Créditos</string>
+    <string name="escolhe_tributacao">Tributação</string>
+    <string name="str_sujeitotributacao">Sujeito a imposto de renda</string>
+    <string name="str_isentotributacao">Isento de imposto de renda</string>
+    <string name="hint_risco">Risco</string>
+    <string name="escolhe_indexador">Indexador</string>
+    <string name="str_cdb">CDB</string>
+    <string name="str_lca">LCA</string>
+    <string name="escolhe_ordenar">Ordenar por:</string>
+    <string name="str_exretorno">Expectativa de Retorno</string>
+    <string name="str_rentliquida">Rentabilidade Liquida</string>
+    <string name="str_aplicar">APLICAR</string>
+    <string name="msg_campo_obrigatorio">Campo Obrigatório</string>
+
+
+</resources>

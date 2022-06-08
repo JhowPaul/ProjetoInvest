@@ -7,27 +7,29 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import br.com.projetoinvest.R
-import br.com.projetoinvest.databinding.FragmentFiltroRendaBinding
+import br.com.projetoinvest.databinding.FragmentFiltroRendaVariavelBinding
 
-class FiltroRendaFragment : Fragment() {
 
-    private lateinit var binding: FragmentFiltroRendaBinding
+class FiltroRendaVariavelFragment : Fragment() {
+
+
+    private lateinit var binding: FragmentFiltroRendaVariavelBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentFiltroRendaBinding.inflate(inflater, container, false)
+        binding= FragmentFiltroRendaVariavelBinding.inflate(inflater,container, false)
         return binding.root
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.btnAplicar.setOnClickListener {
-
+        binding.btnAplicar.setOnClickListener{
             var isValido = true
-            val valor = binding.tieValor.text.toString()
+            var valor = binding.tieValor.text.toString()
             var prazo = binding.tiePrazo.text.toString()
+
 
             if (valor == null || valor.trim().length == 0) {
                 isValido = false
@@ -51,13 +53,12 @@ class FiltroRendaFragment : Fragment() {
                 Toast.makeText(activity, "OK", Toast.LENGTH_LONG).show()
 
 
+
             }
             /*if (isValido != false) {
         startActivity(Intent(this,LoginActivity::class.kotlin))
         }
          */
         }
-
-     }
     }
-
+}

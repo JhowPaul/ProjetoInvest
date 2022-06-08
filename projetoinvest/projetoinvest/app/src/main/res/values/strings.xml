@@ -3,7 +3,6 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hint_valor">Valor</string>
-    <string name="hint_prazo">Prazo</string>
     <string name="str_liquidez">Liquidez </string>
     <string name="escolhe_liquidez">Liquidez</string>
     <string name="str_anual">Anual</string>
@@ -27,6 +26,32 @@
     <string name="str_rentliquida">Rentabilidade Liquida</string>
     <string name="str_aplicar">APLICAR</string>
     <string name="msg_campo_obrigatorio">Campo Obrigatório</string>
+    <string name="str_Valor">Valor</string>
+    <string name="title_activity_cripto">Cripto</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="str_Ordenar">Ordenar</string>
+    <string name="str_valormercado">Valor de Mercado</string>
+    <string name="str_precoreal">Preço em Real</string>
+    <string name="str_Risco">Risco</string>
+    <string name="str_AplicMin">Aplicação Mínima</string>
+    <string name="str_Cotizacao">Cotização</string>
+    <string name="str_atedia1">Até Dia+1</string>
+    <string name="str_atedia5">Até Dia+5</string>
+    <string name="str_atedia10">Até Dia+10</string>
+    <string name="str_atedia30">Até Dia+30</string>
+    <string name="str_maiordia30">Maior que Dia+30</string>
+    <string name="str_usuario">Usuário</string>
+    <string name="str_senha">Senha</string>
+    <string name="str_entrar">Entrar</string>
+    <string name="str_valor">Valor</string>
+    <string name="str_prazo">Prazo</string>
 
 
 </resources>

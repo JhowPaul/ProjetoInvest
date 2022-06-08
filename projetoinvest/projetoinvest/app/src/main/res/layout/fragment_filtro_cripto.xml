@@ -1,0 +1,58 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.core.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="14dp">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/escolhe_ordenar"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical"
+                android:id="@+id/rgEscolheOrdenar">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rbValorDeMercado"
+                    android:text="@string/str_valormercado"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rbPrecoReal"
+                    android:text="@string/str_precoreal"/>
+
+            </RadioGroup>
+
+            <Button
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:text="@string/str_aplicar"
+                android:backgroundTint="#04AA6D"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/btn_aplicar"/>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

@@ -2,30 +2,29 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph"
-    app:startDestination="@id/filtroLoginFragment">
+    app:startDestination="@id/filtroRendaFragment"
+    android:id="@+id/nav_graph">
 
-    <fragment
-        android:id="@+id/filtroLoginFragment"
-        android:name="br.com.projetoinvest.activity.fragment.FiltroLoginFragment"
-        android:label="fragment_filtro_login"
-        tools:layout="@layout/fragment_filtro_login" />
     <fragment
         android:id="@+id/filtroQuestionarioFragment"
         android:name="br.com.projetoinvest.activity.fragment.FiltroQuestionarioFragment"
         android:label="fragment_filtro_questionario"
-        tools:layout="@layout/fragment_filtro_questionario" >
-        <action
-            android:id="@+id/action_filtroQuestionarioFragment_to_filtroLoginFragment"
-            app:destination="@id/filtroLoginFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_filtro_questionario" />
     <fragment
         android:id="@+id/filtroRendaFragment"
         android:name="br.com.projetoinvest.activity.fragment.FiltroRendaFragment"
         android:label="fragment_filtro_renda"
         tools:layout="@layout/fragment_filtro_renda" >
         <action
-            android:id="@+id/action_filtroRendaFragment_to_filtroQuestionarioFragment"
-            app:destination="@id/filtroQuestionarioFragment" />
+            android:id="@+id/action_filtroRendaFragment_to_filtroRendaVariavelFragment"
+            app:destination="@id/filtroRendaVariavelFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/filtroFundoInvestFragment"
+        android:name="br.com.projetoinvest.activity.fragment.FiltroFundoInvestFragment"
+        android:label="FiltroFundoInvestFragment" />
+    <fragment
+        android:id="@+id/filtroRendaVariavelFragment"
+        android:name="br.com.projetoinvest.activity.fragment.FiltroRendaVariavelFragment"
+        android:label="FiltroRendaVariavelFragment" />
 </navigation>

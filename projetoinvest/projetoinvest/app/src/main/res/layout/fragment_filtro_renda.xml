@@ -13,13 +13,21 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+
+                android:text="@string/str_valor"
+                android:textSize="18sp" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/tilValor"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:hint="@string/hint_valor">
+                android:layout_marginBottom="10dp">
+
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/tieValor"
@@ -30,13 +38,19 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/str_prazo"
+                android:textSize="18sp" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/tilPrazo"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:hint="@string/hint_prazo">
+                android:layout_marginBottom="10dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/tiePrazo"
@@ -90,26 +104,22 @@
                 android:text="@string/escolhe_emissor"
                 android:textSize="18sp" />
 
-            <RadioGroup
-                android:id="@+id/rgEscolheEmissor"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:orientation="vertical">
 
-                <RadioButton
+
+
+            <CheckBox
                     android:id="@+id/rbXpInvestimentos"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/str_xpinvest" />
 
-                <RadioButton
+            <CheckBox
                     android:id="@+id/rbNovaFutura"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/str_novafutura" />
 
-                <RadioButton
+            <CheckBox
                     android:id="@+id/rbOrama"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -117,7 +127,7 @@
 
                  <!--Colocar as que faltam -->
 
-            </RadioGroup>
+
 
             <TextView
                 android:layout_width="match_parent"
@@ -254,7 +264,7 @@
                     android:layout_gravity="center"
                     android:textSize="18sp"
                     android:text="@string/str_aplicar"
-                    android:backgroundTint="#32cd32"
+                    android:backgroundTint="#04AA6D"
                     android:textColor="#FFFFFF"
                     android:layout_marginBottom="10dp"
                     android:id="@+id/btn_aplicar"/>
